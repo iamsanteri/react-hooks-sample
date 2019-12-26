@@ -1,7 +1,10 @@
 import React from 'react';
 import './App.css';
 import Form from "./components/form.js";
-import TaskList from "./components/to-do.js";
+
+// This is a base component 
+
+// Rendering a "Form" child component below
 
 function App() {
   return (
@@ -10,7 +13,6 @@ function App() {
         <h1>Santeri's small to-do app</h1>
           <Form />
       </header>
-      <TaskList />
     </div>
   );
 }
